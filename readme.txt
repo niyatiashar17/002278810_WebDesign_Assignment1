@@ -3,7 +3,7 @@ Assignment - 1
 Name: Niyati Rupesh Ashar
 NUID : 002278810
 Subject: Web Design and User Experience 
-<!-- Repository --> : 
+Repository : https://github.com/niyatiashar17/002278810_WebDesign_Assignment1/tree/main
 
 ----------------------------------------------------Tags used in Assignment 1 -----------------------------------------------
 1: <html> Its the root element of a document
