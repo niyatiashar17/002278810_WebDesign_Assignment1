@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    
+}
+
+header{
+    position:fixed;
+    top:0;
+    right:0;
+    width:100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    transition: all ease .45s;
+}
+.navbar {
+    display: flex;
+    text-align: center;
+    font-size: medium;
+    align-items: center;
+    padding: 0; 
+}
+
+.navbar li {
+    display: inline-block; /* Display list items in a horizontal line */
+    margin-right: 20px; /* Add some spacing between list items */
+}
+
+.navbar a.active {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+.navbar a.active:hover {
+    color: #ff5733; /* Change the text color on hover */
+}
+.navbar a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Set link color */
+    font-weight: bold; /* Make the text bold */
+}
+
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color:black;
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: black;
+
+}
+h2:hover{
+    background-color: yellow;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    
+}
+
+
+
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted#EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin:  100px  auto ;
+}
+
+
+
+.top-feild{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.middle-feild{
+margin: 100px 0;
+font-size: large;
+text-align: center;
+
+
+}
+
+.intro{
+    width: 30%;
+margin: auto;
+}
+
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.code{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    line-height: 2;
+    position:relative;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-gallery {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-item {
+    width: 200px; 
+    text-align: center;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.image-item img:hover {
+    transform: scale(1.1);
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    align-content: center;
+
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+    align-content: center;
+  }
+
+  
+.testing{
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+.bottom-feild{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+  
+}
+
+.column {
+    float: left;
+    text-align: center;
+    width: 50%;
+    
+    height: 150px;
+    bottom:20%;
+    left :50%;
+  }
+  
+  .row:after {
+    
+    float: none;
+    content: "";
+    display: table;
+    clear: both;
+    clear:both;
+    left :20%;
+  }
+
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img{
+  width:48px;
+  transition: 0.5s;    
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}  
+
