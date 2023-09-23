@@ -5,7 +5,7 @@ NUID : 002278810
 Subject: Web Design and User Experience 
 Repository : https://github.com/niyatiashar17/INFO6150_Ashar_Niyati_002278810/edit/Assignment2/README.md
 
-----------------------------------------------------Tags used in Assignment 1 -----------------------------------------------
+----------------------------------------------------Tags used in Assignment 2 -----------------------------------------------
 1: html Its the root element of a document
 
 2: head This tag is placed between html and body tag. It generally stores metadata(data about data) like title, character set, scripts,and other information.
